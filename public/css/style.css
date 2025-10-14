@@ -1,0 +1,14 @@
+.articles-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articles-list li {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 0;
+}
