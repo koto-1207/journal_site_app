@@ -12,3 +12,13 @@
     display: flex;
     gap: 0;
 }
+
+.form-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* 1列目(ラベル)は自動幅、2列目(入力欄)は残り全部 */
+    gap: 15px;
+    /* 要素間の隙間 */
+    align-items: center;
+    /* ラベルと入力欄の縦位置を中央に揃える */
+}
