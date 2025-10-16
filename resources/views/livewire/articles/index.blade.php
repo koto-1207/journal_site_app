@@ -8,6 +8,7 @@ state(['articles' => fn() => Article::all()]);
 $create = function () {
     return redirect()->route('articles.create');
 };
+
 ?>
 
 <div>

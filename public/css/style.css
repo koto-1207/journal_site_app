@@ -22,3 +22,9 @@
     align-items: center;
     /* ラベルと入力欄の縦位置を中央に揃える */
 }
+
+.error {
+    color: red;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+}
