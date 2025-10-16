@@ -26,9 +26,9 @@ $destroy = function () {
         <button onclick="location.href='{{ route('articles.index') }}'">
             一覧に戻る
         </button>
-
-        {{-- ボタンだけ作成 --}}
-        <button wire:click="edit">編集する</button>
+        <button wire:click="edit">
+            編集する
+        </button>
         <button wire:click="destroy" wire:confirm="本当に削除しますか？">
             削除する
         </button>
