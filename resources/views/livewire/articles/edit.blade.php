@@ -32,7 +32,7 @@ $update = function () {
     <!-- wire:submit="update"でフォーム送信時にupdate関数を呼び出し -->
     <form wire:submit="update">
         <p>
-            <label for="title">タイトル</label>
+            <label for="title">論文タイトル</label>
             @error('title')
                 <span class="error">({{ $message }})</span>
             @enderror
