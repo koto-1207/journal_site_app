@@ -6,7 +6,7 @@ use App\Models\Article;
 state(['articles' => fn() => Article::all()]);
 
 $create = function () {
-    return redirect()->route('memos.create');
+    return redirect()->route('articles.create');
 };
 ?>
 
@@ -15,7 +15,7 @@ $create = function () {
     <ul class="articles-list">
         @foreach ($articles as $article)
             <li>
-                <a href="{{ route('memos.show', $article) }}">
+                <a href="{{ route('articles.show', $article) }}">
                     {{ $article->title }}
                 </a>
             </li>

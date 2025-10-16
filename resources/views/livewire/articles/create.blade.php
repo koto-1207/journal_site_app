@@ -13,7 +13,7 @@ $store = function () {
         'body' => $this->body,
     ]);
     // 一覧ページにリダイレクト
-    return redirect()->route('memos.index');
+    return redirect()->route('articles.index');
 };
 ?>
 
@@ -37,4 +37,3 @@ $store = function () {
         </form>
     </div>
 </div>
-

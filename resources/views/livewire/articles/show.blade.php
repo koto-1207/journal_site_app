@@ -13,7 +13,7 @@ state(['article' => fn(Article $article) => $article]);
     <p>{!! nl2br(e($article->body)) !!}</p>
 
     <div class="button-container">
-        <button onclick="location.href='{{ route('memos.index') }}'">
+        <button onclick="location.href='{{ route('articles.index') }}'">
             一覧に戻る
         </button>
 
