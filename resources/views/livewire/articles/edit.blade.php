@@ -27,7 +27,7 @@ $update = function () {
 ?>
 
 <div>
-    <h1>更新</h1>
+    <h1>投稿論文編集</h1>
 
     <!-- wire:submit="update"でフォーム送信時にupdate関数を呼び出し -->
     <form wire:submit="update">
