@@ -27,7 +27,6 @@ $update = function () {
 ?>
 
 <div>
-    <a href="{{ route('articles.show', $article) }}">戻る</a>
     <h1>更新</h1>
 
     <!-- wire:submit="update"でフォーム送信時にupdate関数を呼び出し -->
