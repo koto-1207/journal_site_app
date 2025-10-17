@@ -1,0 +1,27 @@
+.articles-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articles-list li {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 0;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+}
